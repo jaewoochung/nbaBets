@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Itim&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Audiowide', cursive;
+  background: #2F2FA2;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.main-section {
+  width: 50%;
+  margin: auto;
+}
+.header {
+  color: #FFF;
+  text-align: center;
+}
+.game-list {
+  width: 65%;
+  margin: auto;
+}
+.gameDiv {
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+  box-sizing: inherit;
+  position: relative;
+  background: #99738E;
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(34,36,38,.15);
+}
+
+.inputDiv {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .main-section {
+    width: 90%;
+  }
+
+  .gameDiv {
+    text-align: left;
+    word-break: break-word;
+    padding: 10px;
+  }
+}
