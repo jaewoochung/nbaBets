@@ -55,7 +55,7 @@ class BetChild extends React.Component {
   handleTeamBet = async (team, odds) => {
     const betTeam = team
     const betOdds = odds
-    window.alert("You completed a bet on " + betTeam + " with the odds: " +odds)
+    window.alert("You completed a bet on " + betTeam + " with the odds: " +odds + " press complete bet to process it")
     this.setState({ betTeam, betOdds })
   }
 
@@ -75,7 +75,7 @@ class BetChild extends React.Component {
         />
 
         <div className="gameDiv">
-          <em>Odds Maker:</em>{this.props.site_key}
+          <em>Odds Maker: </em>{this.props.site_key}
           <br/>
           {this.props.team[0]}:{this.props.odds.totals.odds[0]}
           <Button onClick={() =>
