@@ -31,7 +31,6 @@ class AppBet extends React.Component {
     return (
       <div>
         <Header />
-        <Profit />
         <BetsList  />
       </div>
     )
@@ -60,7 +59,6 @@ class App extends React.Component {
 
 ReactDOM.render(
  <Provider store={store}>
-  <AppDB />
   <Provider store={betStore}>
     <AppBet />
   </Provider>

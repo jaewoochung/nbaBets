@@ -60,27 +60,7 @@ class Game extends React.Component {
         }
       }
     });
-
   }
-
-  // console.log(winner)
-  // test.forEach((item, i) => {
-  //   if (item.betTeam === winner) {
-  //     var profitData = api.get('/profit/600cceac8f535b0be56757bd')
-  //     console.log(profitData)
-  //     // let payload = {
-  //     //   result: 'won',
-  //     //   betTeam: item.betTeam,
-  //     //   betAmount: item.betAmount,
-  //     //   betOdds: item.betOdds,
-  //     // }
-  //     // var link = '/user/' + item._id
-  //     // api.put(link, payload)
-  //   } else {
-  //     var profitData = api.get('/profit/600cceac8f535b0be56757bd')
-  //     console.log(profitData)
-  //   }
-  // })
 
   render() {
     return (
