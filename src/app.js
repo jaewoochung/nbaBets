@@ -55,8 +55,6 @@ class App extends React.Component {
   }
 }
 
-// export { PContext }
-
 ReactDOM.render(
  <Provider store={store}>
   <Provider store={betStore}>
